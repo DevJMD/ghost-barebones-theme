@@ -12,6 +12,7 @@ Simply place it in your `content/themes/<theme-name>/` and start building!
 Head to your Ghost theme directory in `content/themes`.
 
 Clone the repo with your theme name, for example:
+
 ```git clone git@github.com:JamesMD/ghost-barebones-theme.git mytheme```
 
 **Note: Ghost theme directory names will only accept strings with no spaces or special characters.**
