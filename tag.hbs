@@ -1,0 +1,12 @@
+{{!< default}}
+
+<h1>{{tag.name}}</h1>
+<p>
+	{{#if tag.description}}
+		{{tag.description}}
+	{{else}}
+		A {{pagination.total}} - post collection
+	{{/if}}
+</p>
+
+{{> "loop"}}

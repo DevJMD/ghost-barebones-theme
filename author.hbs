@@ -1,0 +1,25 @@
+{{!< default}}
+
+{{#author}}
+		<h1>{{name}}</h1>
+
+		{{#if image}}
+			<img src="{{image}}" alt="{{name}}">
+		{{/if}}
+
+		{{#if bio}}
+			<p>{{bio}}</p>
+		{{/if}}
+
+		{{#if location}}
+			<span>{{location}}</span>
+		{{/if}}
+
+		{{#if website}}
+			<a href="{{website}}">{{website}}</a>
+		{{/if}}
+
+		<span>{{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span>
+{{/author}}
+
+{{> "loop"}}

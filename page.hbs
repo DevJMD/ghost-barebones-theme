@@ -1,0 +1,14 @@
+{{!< default}}
+
+{{#post}}
+	{{#if @blog.logo}}
+		<a href="{{@blog.url}}">
+			<img src="{{@blog.logo}}" alt="{{@blog.title}}">
+		</a>
+	{{/if}}
+
+	<div class="{{post_class}}">
+		<h1>{{title}}</h1>
+		{{content}}
+	</div>
+{{/post}}
